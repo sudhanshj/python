@@ -1,0 +1,8 @@
+a=int(input("Enter frist number:"))
+b=int(input("Enter secound number:"))
+opr=input("Enter one operator:")
+if opr=='+': print(a+b)
+elif opr=='-':print(a-b)
+elif opr=='*':print(a*b)
+elif opr=='/':print(a/b)
+else:print("It is not a operator")
